@@ -1,7 +1,7 @@
 function splitAndMerge(string, separator) {
     return string
         .split(' ')
-        .map((word) => {return word.split('').join(separator)})
+        .map(word => word.split('').join(separator))
         .join(separator);
 }
 
